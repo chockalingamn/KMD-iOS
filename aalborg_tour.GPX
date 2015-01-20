@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<gpx creator="GPS Visualizer http://www.gpsvisualizer.com/" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<wpt lat="57.047852" lon="9.945944">
+  <name>Fra: Ukendt vej</name>
+</wpt>
+<wpt lat="57.03878" lon="9.923182">
+  <name>Til: Østre Alle/O2</name>
+</wpt>
+<wpt lat="57.034363" lon="9.954005">
+  <name>Til: Hadsundvej</name>
+</wpt>
+<wpt lat="57.020184" lon="9.967971">
+  <name>Til: Hadsundvej</name>
+</wpt>
+<wpt lat="57.029819" lon="9.987439">
+  <name>Til: Humlebakken</name>
+</wpt>
+<trk>
+  <name>Rutevejledning i bil til Østre Alle/O2</name>
+  <trkseg>
+    <trkpt lat="57.047852" lon="9.945944"></trkpt>
+    <trkpt lat="57.047791" lon="9.945784"></trkpt>
+    <trkpt lat="57.047672" lon="9.945733"></trkpt>
+    <trkpt lat="57.047607" lon="9.945799"></trkpt>
+    <trkpt lat="57.047573" lon="9.94598"></trkpt>
+    <trkpt lat="57.047573" lon="9.94598"></trkpt>
+    <trkpt lat="57.047073" lon="9.945974"></trkpt>
+    <trkpt lat="57.046982" lon="9.945918"></trkpt>
+    <trkpt lat="57.046722" lon="9.94589"></trkpt>
+    <trkpt lat="57.045921" lon="9.946018"></trkpt>
+    <trkpt lat="57.045921" lon="9.946018"></trkpt>
+    <trkpt lat="57.045658" lon="9.94605"></trkpt>
+    <trkpt lat="57.045475" lon="9.946132"></trkpt>
+    <trkpt lat="57.045475" lon="9.946132"></trkpt>
+    <trkpt lat="57.045383" lon="9.946192"></trkpt>
+    <trkpt lat="57.045162" lon="9.946538"></trkpt>
+    <trkpt lat="57.044846" lon="9.947666"></trkpt>
+    <trkpt lat="57.044582" lon="9.948227"></trkpt>
+    <trkpt lat="57.044582" lon="9.948227"></trkpt>
+    <trkpt lat="57.04277" lon="9.946624"></trkpt>
+    <trkpt lat="57.041222" lon="9.945094"></trkpt>
+    <trkpt lat="57.040768" lon="9.944506"></trkpt>
+    <trkpt lat="57.040428" lon="9.943928"></trkpt>
+    <trkpt lat="57.040165" lon="9.943445"></trkpt>
+    <trkpt lat="57.039867" lon="9.942781"></trkpt>
+    <trkpt lat="57.039089" lon="9.940666"></trkpt>
+    <trkpt lat="57.038685" lon="9.939132"></trkpt>
+    <trkpt lat="57.0382" lon="9.936857"></trkpt>
+    <trkpt lat="57.037979" lon="9.935299"></trkpt>
+    <trkpt lat="57.037819" lon="9.933384"></trkpt>
+    <trkpt lat="57.037762" lon="9.932151"></trkpt>
+    <trkpt lat="57.037762" lon="9.932151"></trkpt>
+    <trkpt lat="57.037754" lon="9.930328"></trkpt>
+    <trkpt lat="57.03772" lon="9.930042"></trkpt>
+    <trkpt lat="57.037766" lon="9.928832"></trkpt>
+    <trkpt lat="57.037823" lon="9.928589"></trkpt>
+    <trkpt lat="57.03801" lon="9.927005"></trkpt>
+    <trkpt lat="57.038139" lon="9.926188"></trkpt>
+    <trkpt lat="57.038128" lon="9.926107"></trkpt>
+    <trkpt lat="57.03878" lon="9.923182"></trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>Rutevejledning i bil til Hadsundvej</name>
+  <trkseg>
+    <trkpt lat="57.03878" lon="9.923182"></trkpt>
+    <trkpt lat="57.037914" lon="9.926989"></trkpt>
+    <trkpt lat="57.037727" lon="9.928621"></trkpt>
+    <trkpt lat="57.037766" lon="9.928832"></trkpt>
+    <trkpt lat="57.03764" lon="9.931288"></trkpt>
+    <trkpt lat="57.037643" lon="9.932278"></trkpt>
+    <trkpt lat="57.037769" lon="9.934484"></trkpt>
+    <trkpt lat="57.037949" lon="9.935842"></trkpt>
+    <trkpt lat="57.037949" lon="9.935842"></trkpt>
+    <trkpt lat="57.037502" lon="9.936272"></trkpt>
+    <trkpt lat="57.037476" lon="9.93639"></trkpt>
+    <trkpt lat="57.037163" lon="9.936706"></trkpt>
+    <trkpt lat="57.036934" lon="9.937024"></trkpt>
+    <trkpt lat="57.033855" lon="9.941728"></trkpt>
+    <trkpt lat="57.03336" lon="9.942335"></trkpt>
+    <trkpt lat="57.032787" lon="9.942921"></trkpt>
+    <trkpt lat="57.032787" lon="9.942921"></trkpt>
+    <trkpt lat="57.032879" lon="9.943715"></trkpt>
+    <trkpt lat="57.033016" lon="9.945575"></trkpt>
+    <trkpt lat="57.033382" lon="9.951108"></trkpt>
+    <trkpt lat="57.033688" lon="9.953572"></trkpt>
+    <trkpt lat="57.033672" lon="9.953704"></trkpt>
+    <trkpt lat="57.033749" lon="9.954279"></trkpt>
+    <trkpt lat="57.033749" lon="9.954279"></trkpt>
+    <trkpt lat="57.034363" lon="9.954005"></trkpt>
+    <trkpt lat="57.034363" lon="9.954005"></trkpt>
+    <trkpt lat="57.033215" lon="9.954518"></trkpt>
+    <trkpt lat="57.031593" lon="9.955452"></trkpt>
+    <trkpt lat="57.030132" lon="9.956525"></trkpt>
+    <trkpt lat="57.028904" lon="9.95759"></trkpt>
+    <trkpt lat="57.024143" lon="9.962063"></trkpt>
+    <trkpt lat="57.023289" lon="9.962928"></trkpt>
+    <trkpt lat="57.022804" lon="9.96352"></trkpt>
+    <trkpt lat="57.022427" lon="9.964054"></trkpt>
+    <trkpt lat="57.021858" lon="9.965031"></trkpt>
+    <trkpt lat="57.021526" lon="9.965708"></trkpt>
+    <trkpt lat="57.020836" lon="9.967301"></trkpt>
+    <trkpt lat="57.020527" lon="9.967752"></trkpt>
+    <trkpt lat="57.020184" lon="9.967971"></trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>Rutevejledning i bil til Humlebakken</name>
+  <trkseg>
+    <trkpt lat="57.020184" lon="9.967971"></trkpt>
+    <trkpt lat="57.019917" lon="9.968022"></trkpt>
+    <trkpt lat="57.019917" lon="9.968022"></trkpt>
+    <trkpt lat="57.019817" lon="9.967831"></trkpt>
+    <trkpt lat="57.019665" lon="9.967799"></trkpt>
+    <trkpt lat="57.019524" lon="9.967903"></trkpt>
+    <trkpt lat="57.019436" lon="9.968124"></trkpt>
+    <trkpt lat="57.019428" lon="9.968415"></trkpt>
+    <trkpt lat="57.019478" lon="9.968566"></trkpt>
+    <trkpt lat="57.019569" lon="9.968696"></trkpt>
+    <trkpt lat="57.019588" lon="9.969006"></trkpt>
+    <trkpt lat="57.01947" lon="9.972034"></trkpt>
+    <trkpt lat="57.019424" lon="9.975022"></trkpt>
+    <trkpt lat="57.019394" lon="9.975365"></trkpt>
+    <trkpt lat="57.019394" lon="9.975365"></trkpt>
+    <trkpt lat="57.019257" lon="9.975519"></trkpt>
+    <trkpt lat="57.019199" lon="9.975831"></trkpt>
+    <trkpt lat="57.01923" lon="9.976046"></trkpt>
+    <trkpt lat="57.019276" lon="9.976148"></trkpt>
+    <trkpt lat="57.019451" lon="9.976275"></trkpt>
+    <trkpt lat="57.019592" lon="9.976229"></trkpt>
+    <trkpt lat="57.019703" lon="9.976015"></trkpt>
+    <trkpt lat="57.020012" lon="9.975817"></trkpt>
+    <trkpt lat="57.02248" lon="9.975664"></trkpt>
+    <trkpt lat="57.023598" lon="9.975696"></trkpt>
+    <trkpt lat="57.023727" lon="9.975777"></trkpt>
+    <trkpt lat="57.024136" lon="9.975828"></trkpt>
+    <trkpt lat="57.024715" lon="9.975862"></trkpt>
+    <trkpt lat="57.024975" lon="9.975824"></trkpt>
+    <trkpt lat="57.026932" lon="9.976222"></trkpt>
+    <trkpt lat="57.029556" lon="9.976827"></trkpt>
+    <trkpt lat="57.029633" lon="9.976944"></trkpt>
+    <trkpt lat="57.029907" lon="9.977023"></trkpt>
+    <trkpt lat="57.029907" lon="9.977023"></trkpt>
+    <trkpt lat="57.030293" lon="9.977114"></trkpt>
+    <trkpt lat="57.030293" lon="9.977114"></trkpt>
+    <trkpt lat="57.029819" lon="9.987439"></trkpt>
+  </trkseg>
+</trk>
+</gpx>

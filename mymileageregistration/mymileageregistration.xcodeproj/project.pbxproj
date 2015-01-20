@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA1578EA19B8467A00FE5B1F /* RegistrationRestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1578E519B8467A00FE5B1F /* RegistrationRestClient.m */; };
+		DA1578F019B846EA00FE5B1F /* TripDistanceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1578EF19B846EA00FE5B1F /* TripDistanceUtil.m */; };
+		DA1578F419B8477400FE5B1F /* V130Registration.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1578F319B8477400FE5B1F /* V130Registration.m */; };
+		DA301DD519AF1A8200BA9A53 /* MileageRegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA301DD419AF1A8200BA9A53 /* MileageRegistrationViewController.m */; };
+		DA301DD819AF1B5200BA9A53 /* FieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA301DD719AF1B5200BA9A53 /* FieldTableViewCell.m */; };
+		DA301DE119AF42F100BA9A53 /* KMDMileage+utility.m in Sources */ = {isa = PBXBuildFile; fileRef = DA301DE019AF42F100BA9A53 /* KMDMileage+utility.m */; };
+		DA301DE419AF430000BA9A53 /* KMDIntermidiatePoint+utility.m in Sources */ = {isa = PBXBuildFile; fileRef = DA301DE319AF430000BA9A53 /* KMDIntermidiatePoint+utility.m */; };
+		DA36107319ADB0C200B2821A /* KMD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DA36107219ADB0C200B2821A /* KMD.bundle */; };
+		DA3610AE19AE068C00B2821A /* MileageRegistrationsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3610AD19AE068C00B2821A /* MileageRegistrationsTableViewController.m */; };
+		DA49A6C919B6E5910037232E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA49A6C819B6E5910037232E /* MapKit.framework */; };
+		DA49A6CC19B6E5CE0037232E /* MapRegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA49A6CB19B6E5CE0037232E /* MapRegistrationViewController.m */; };
+		DA49A6CF19B706550037232E /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = DA49A6CE19B706550037232E /* UIImage+ImageEffects.m */; };
+		DA49A6D319B70E3B0037232E /* KMDMapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = DA49A6D219B70E3A0037232E /* KMDMapPoint.m */; };
+		DA6908FB19B5EB1200D794C2 /* Custom.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA6908FA19B5EB1200D794C2 /* Custom.strings */; };
+		DA754BB619C185BF00C72911 /* MileageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA754BB519C185BF00C72911 /* MileageTableViewCell.m */; };
+		DA82884C19ACCA870087960D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA82884B19ACCA870087960D /* main.m */; };
+		DA82884F19ACCA870087960D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA82884E19ACCA870087960D /* AppDelegate.m */; };
+		DA82885519ACCA870087960D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA82885319ACCA870087960D /* Main.storyboard */; };
+		DA82885719ACCA870087960D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA82885619ACCA870087960D /* Images.xcassets */; };
+		DA82886319ACCA870087960D /* mymileageregistrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA82886219ACCA870087960D /* mymileageregistrationTests.m */; };
+		DA9E40A219BEE20000BA2A23 /* KMDMileageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9E40A119BEE20000BA2A23 /* KMDMileageTableViewCell.m */; };
+		DA9E40A519BF129700BA2A23 /* KMDTemplate+utility.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9E40A419BF129700BA2A23 /* KMDTemplate+utility.m */; };
+		DA9E40A819BF352000BA2A23 /* KMDGeocoder.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9E40A719BF352000BA2A23 /* KMDGeocoder.m */; };
+		DAA2FAB219C04C6A009A9A9B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DAA2FAB119C04C6A009A9A9B /* Settings.bundle */; };
+		DAAF2D5D19B6090A007009E5 /* libKMD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAAF2D5C19B6090A007009E5 /* libKMD.a */; };
+		DAB35D7B19AEFDEA00944B08 /* DriverRegistration.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAB35D7819AEFDEA00944B08 /* DriverRegistration.xcdatamodeld */; };
+		DAB5EC3F19B8591800F71567 /* KMDTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5EC3E19B8591800F71567 /* KMDTemplate.m */; };
+		DAB5EC4219B8591900F71567 /* KMDIntermidiatePoint.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5EC4119B8591900F71567 /* KMDIntermidiatePoint.m */; };
+		DAB5EC4519B8591900F71567 /* KMDMileage.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5EC4419B8591900F71567 /* KMDMileage.m */; };
+		DAB5EC4A19B85BD800F71567 /* NSDateFormatter+MDT.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5EC4719B85BD800F71567 /* NSDateFormatter+MDT.m */; };
+		DAB5EC4B19B85BD800F71567 /* NSDate+MDT.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5EC4919B85BD800F71567 /* NSDate+MDT.m */; };
+		DAB5EC4E19B881BF00F71567 /* GPXCreator-2014-09-04 111109 +0000.gpx in Resources */ = {isa = PBXBuildFile; fileRef = DAB5EC4D19B881BF00F71567 /* GPXCreator-2014-09-04 111109 +0000.gpx */; };
+		DAE92F4E19B8EBDF0079CB87 /* KMDKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE92F4D19B8EBDF0079CB87 /* KMDKeyboardToolbar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA82885D19ACCA870087960D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA82883E19ACCA870087960D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA82884519ACCA870087960D;
+			remoteInfo = mymileageregistration;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA1578E419B8467A00FE5B1F /* RegistrationRestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationRestClient.h; sourceTree = "<group>"; };
+		DA1578E519B8467A00FE5B1F /* RegistrationRestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationRestClient.m; sourceTree = "<group>"; };
+		DA1578EE19B846EA00FE5B1F /* TripDistanceUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripDistanceUtil.h; sourceTree = "<group>"; };
+		DA1578EF19B846EA00FE5B1F /* TripDistanceUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripDistanceUtil.m; sourceTree = "<group>"; };
+		DA1578F219B8477400FE5B1F /* V130Registration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V130Registration.h; sourceTree = "<group>"; };
+		DA1578F319B8477400FE5B1F /* V130Registration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V130Registration.m; sourceTree = "<group>"; };
+		DA301DD219AF0FFC00BA9A53 /* KMDMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KMDMacro.h; path = ../../leaverequest/leaverequest/KMDMacro.h; sourceTree = "<group>"; };
+		DA301DD319AF1A8200BA9A53 /* MileageRegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MileageRegistrationViewController.h; sourceTree = "<group>"; };
+		DA301DD419AF1A8200BA9A53 /* MileageRegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MileageRegistrationViewController.m; sourceTree = "<group>"; };
+		DA301DD619AF1B5200BA9A53 /* FieldTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldTableViewCell.h; sourceTree = "<group>"; };
+		DA301DD719AF1B5200BA9A53 /* FieldTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FieldTableViewCell.m; sourceTree = "<group>"; };
+		DA301DDF19AF42F100BA9A53 /* KMDMileage+utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KMDMileage+utility.h"; sourceTree = "<group>"; };
+		DA301DE019AF42F100BA9A53 /* KMDMileage+utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KMDMileage+utility.m"; sourceTree = "<group>"; };
+		DA301DE219AF430000BA9A53 /* KMDIntermidiatePoint+utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KMDIntermidiatePoint+utility.h"; sourceTree = "<group>"; };
+		DA301DE319AF430000BA9A53 /* KMDIntermidiatePoint+utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KMDIntermidiatePoint+utility.m"; sourceTree = "<group>"; };
+		DA36106B19ADA75500B2821A /* mymileageregistration-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mymileageregistration-Prefix.pch"; sourceTree = "<group>"; };
+		DA36107219ADB0C200B2821A /* KMD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = KMD.bundle; path = ../Products/KMD.bundle; sourceTree = "<group>"; };
+		DA3610AC19AE068C00B2821A /* MileageRegistrationsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MileageRegistrationsTableViewController.h; sourceTree = "<group>"; };
+		DA3610AD19AE068C00B2821A /* MileageRegistrationsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MileageRegistrationsTableViewController.m; sourceTree = "<group>"; };
+		DA3610AF19AE074700B2821A /* da */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = da; path = da.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA49A6C819B6E5910037232E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DA49A6CA19B6E5CE0037232E /* MapRegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapRegistrationViewController.h; sourceTree = "<group>"; };
+		DA49A6CB19B6E5CE0037232E /* MapRegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapRegistrationViewController.m; sourceTree = "<group>"; };
+		DA49A6CD19B706550037232E /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		DA49A6CE19B706550037232E /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		DA49A6D119B70E3A0037232E /* KMDMapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMDMapPoint.h; sourceTree = "<group>"; };
+		DA49A6D219B70E3A0037232E /* KMDMapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMDMapPoint.m; sourceTree = "<group>"; };
+		DA6908FA19B5EB1200D794C2 /* Custom.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Custom.strings; sourceTree = "<group>"; };
+		DA754BB419C185BF00C72911 /* MileageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MileageTableViewCell.h; sourceTree = "<group>"; };
+		DA754BB519C185BF00C72911 /* MileageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MileageTableViewCell.m; sourceTree = "<group>"; };
+		DA82884619ACCA870087960D /* mymileageregistration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mymileageregistration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA82884A19ACCA870087960D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA82884B19ACCA870087960D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA82884D19ACCA870087960D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA82884E19ACCA870087960D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA82885619ACCA870087960D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DA82885C19ACCA870087960D /* mymileageregistrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mymileageregistrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA82886119ACCA870087960D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA82886219ACCA870087960D /* mymileageregistrationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mymileageregistrationTests.m; sourceTree = "<group>"; };
+		DA9E40A019BEE20000BA2A23 /* KMDMileageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMDMileageTableViewCell.h; sourceTree = "<group>"; };
+		DA9E40A119BEE20000BA2A23 /* KMDMileageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMDMileageTableViewCell.m; sourceTree = "<group>"; };
+		DA9E40A319BF129700BA2A23 /* KMDTemplate+utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KMDTemplate+utility.h"; sourceTree = "<group>"; };
+		DA9E40A419BF129700BA2A23 /* KMDTemplate+utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KMDTemplate+utility.m"; sourceTree = "<group>"; };
+		DA9E40A619BF352000BA2A23 /* KMDGeocoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMDGeocoder.h; sourceTree = "<group>"; };
+		DA9E40A719BF352000BA2A23 /* KMDGeocoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMDGeocoder.m; sourceTree = "<group>"; };
+		DAA2FAB119C04C6A009A9A9B /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		DAAF2D5C19B6090A007009E5 /* libKMD.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libKMD.a; path = "../Common/build/Debug-iphoneos/libKMD.a"; sourceTree = "<group>"; };
+		DAB35D7919AEFDEA00944B08 /* DriverRegistration 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "DriverRegistration 2.xcdatamodel"; sourceTree = "<group>"; };
+		DAB35D7A19AEFDEA00944B08 /* DriverRegistration.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DriverRegistration.xcdatamodel; sourceTree = "<group>"; };
+		DAB5EC3D19B8591800F71567 /* KMDTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMDTemplate.h; sourceTree = "<group>"; };
+		DAB5EC3E19B8591800F71567 /* KMDTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMDTemplate.m; sourceTree = "<group>"; };
+		DAB5EC4019B8591900F71567 /* KMDIntermidiatePoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMDIntermidiatePoint.h; sourceTree = "<group>"; };
+		DAB5EC4119B8591900F71567 /* KMDIntermidiatePoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMDIntermidiatePoint.m; sourceTree = "<group>"; };
+		DAB5EC4319B8591900F71567 /* KMDMileage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMDMileage.h; sourceTree = "<group>"; };
+		DAB5EC4419B8591900F71567 /* KMDMileage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMDMileage.m; sourceTree = "<group>"; };
+		DAB5EC4619B85BD800F71567 /* NSDateFormatter+MDT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+MDT.h"; sourceTree = "<group>"; };
+		DAB5EC4719B85BD800F71567 /* NSDateFormatter+MDT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+MDT.m"; sourceTree = "<group>"; };
+		DAB5EC4819B85BD800F71567 /* NSDate+MDT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+MDT.h"; sourceTree = "<group>"; };
+		DAB5EC4919B85BD800F71567 /* NSDate+MDT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MDT.m"; sourceTree = "<group>"; };
+		DAB5EC4D19B881BF00F71567 /* GPXCreator-2014-09-04 111109 +0000.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GPXCreator-2014-09-04 111109 +0000.gpx"; sourceTree = "<group>"; };
+		DAE92F4C19B8EBDF0079CB87 /* KMDKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMDKeyboardToolbar.h; sourceTree = "<group>"; };
+		DAE92F4D19B8EBDF0079CB87 /* KMDKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMDKeyboardToolbar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA82884319ACCA870087960D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA49A6C919B6E5910037232E /* MapKit.framework in Frameworks */,
+				DAAF2D5D19B6090A007009E5 /* libKMD.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA82885919ACCA870087960D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA1578E319B8465800FE5B1F /* REST */ = {
+			isa = PBXGroup;
+			children = (
+				DA1578E419B8467A00FE5B1F /* RegistrationRestClient.h */,
+				DA1578E519B8467A00FE5B1F /* RegistrationRestClient.m */,
+				DA9E40A619BF352000BA2A23 /* KMDGeocoder.h */,
+				DA9E40A719BF352000BA2A23 /* KMDGeocoder.m */,
+			);
+			name = REST;
+			sourceTree = "<group>";
+		};
+		DA1578ED19B846DB00FE5B1F /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				DAE92F4C19B8EBDF0079CB87 /* KMDKeyboardToolbar.h */,
+				DAE92F4D19B8EBDF0079CB87 /* KMDKeyboardToolbar.m */,
+				DA1578EE19B846EA00FE5B1F /* TripDistanceUtil.h */,
+				DA1578EF19B846EA00FE5B1F /* TripDistanceUtil.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		DA1578F119B8475000FE5B1F /* v130 */ = {
+			isa = PBXGroup;
+			children = (
+				DA1578F219B8477400FE5B1F /* V130Registration.h */,
+				DA1578F319B8477400FE5B1F /* V130Registration.m */,
+			);
+			name = v130;
+			sourceTree = "<group>";
+		};
+		DA3610A319ADED4200B2821A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DA1578F119B8475000FE5B1F /* v130 */,
+				DAB35D7819AEFDEA00944B08 /* DriverRegistration.xcdatamodeld */,
+				DAB5EC4319B8591900F71567 /* KMDMileage.h */,
+				DAB5EC4419B8591900F71567 /* KMDMileage.m */,
+				DAB5EC4019B8591900F71567 /* KMDIntermidiatePoint.h */,
+				DAB5EC4119B8591900F71567 /* KMDIntermidiatePoint.m */,
+				DAB5EC3D19B8591800F71567 /* KMDTemplate.h */,
+				DA9E40A319BF129700BA2A23 /* KMDTemplate+utility.h */,
+				DA9E40A419BF129700BA2A23 /* KMDTemplate+utility.m */,
+				DAB5EC3E19B8591800F71567 /* KMDTemplate.m */,
+				DA301DDF19AF42F100BA9A53 /* KMDMileage+utility.h */,
+				DA301DE019AF42F100BA9A53 /* KMDMileage+utility.m */,
+				DA301DE219AF430000BA9A53 /* KMDIntermidiatePoint+utility.h */,
+				DA301DE319AF430000BA9A53 /* KMDIntermidiatePoint+utility.m */,
+				DA49A6D119B70E3A0037232E /* KMDMapPoint.h */,
+				DA49A6D219B70E3A0037232E /* KMDMapPoint.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DA49A6D019B7065D0037232E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				DAB5EC4619B85BD800F71567 /* NSDateFormatter+MDT.h */,
+				DAB5EC4719B85BD800F71567 /* NSDateFormatter+MDT.m */,
+				DAB5EC4819B85BD800F71567 /* NSDate+MDT.h */,
+				DAB5EC4919B85BD800F71567 /* NSDate+MDT.m */,
+				DA49A6CD19B706550037232E /* UIImage+ImageEffects.h */,
+				DA49A6CE19B706550037232E /* UIImage+ImageEffects.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		DA82883D19ACCA870087960D = {
+			isa = PBXGroup;
+			children = (
+				DAB5EC4C19B881AB00F71567 /* Geo testdata */,
+				DA49A6C819B6E5910037232E /* MapKit.framework */,
+				DAAF2D5C19B6090A007009E5 /* libKMD.a */,
+				DA36107219ADB0C200B2821A /* KMD.bundle */,
+				DA82884819ACCA870087960D /* mymileageregistration */,
+				DA82885F19ACCA870087960D /* mymileageregistrationTests */,
+				DA82884719ACCA870087960D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA82884719ACCA870087960D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA82884619ACCA870087960D /* mymileageregistration.app */,
+				DA82885C19ACCA870087960D /* mymileageregistrationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA82884819ACCA870087960D /* mymileageregistration */ = {
+			isa = PBXGroup;
+			children = (
+				DA1578ED19B846DB00FE5B1F /* Utility */,
+				DA1578E319B8465800FE5B1F /* REST */,
+				DA49A6D019B7065D0037232E /* Categories */,
+				DA301DD219AF0FFC00BA9A53 /* KMDMacro.h */,
+				DA3610A319ADED4200B2821A /* Model */,
+				DA82884D19ACCA870087960D /* AppDelegate.h */,
+				DA82884E19ACCA870087960D /* AppDelegate.m */,
+				DA82885319ACCA870087960D /* Main.storyboard */,
+				DA3610AC19AE068C00B2821A /* MileageRegistrationsTableViewController.h */,
+				DA3610AD19AE068C00B2821A /* MileageRegistrationsTableViewController.m */,
+				DA754BB419C185BF00C72911 /* MileageTableViewCell.h */,
+				DA754BB519C185BF00C72911 /* MileageTableViewCell.m */,
+				DA301DD319AF1A8200BA9A53 /* MileageRegistrationViewController.h */,
+				DA301DD419AF1A8200BA9A53 /* MileageRegistrationViewController.m */,
+				DA49A6CA19B6E5CE0037232E /* MapRegistrationViewController.h */,
+				DA49A6CB19B6E5CE0037232E /* MapRegistrationViewController.m */,
+				DA9E40A019BEE20000BA2A23 /* KMDMileageTableViewCell.h */,
+				DA9E40A119BEE20000BA2A23 /* KMDMileageTableViewCell.m */,
+				DA301DD619AF1B5200BA9A53 /* FieldTableViewCell.h */,
+				DA301DD719AF1B5200BA9A53 /* FieldTableViewCell.m */,
+				DA82885619ACCA870087960D /* Images.xcassets */,
+				DA82884919ACCA870087960D /* Supporting Files */,
+			);
+			path = mymileageregistration;
+			sourceTree = "<group>";
+		};
+		DA82884919ACCA870087960D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA6908FA19B5EB1200D794C2 /* Custom.strings */,
+				DA82884A19ACCA870087960D /* Info.plist */,
+				DA82884B19ACCA870087960D /* main.m */,
+				DA36106B19ADA75500B2821A /* mymileageregistration-Prefix.pch */,
+				DAA2FAB119C04C6A009A9A9B /* Settings.bundle */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA82885F19ACCA870087960D /* mymileageregistrationTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA82886219ACCA870087960D /* mymileageregistrationTests.m */,
+				DA82886019ACCA870087960D /* Supporting Files */,
+			);
+			path = mymileageregistrationTests;
+			sourceTree = "<group>";
+		};
+		DA82886019ACCA870087960D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA82886119ACCA870087960D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAB5EC4C19B881AB00F71567 /* Geo testdata */ = {
+			isa = PBXGroup;
+			children = (
+				DAB5EC4D19B881BF00F71567 /* GPXCreator-2014-09-04 111109 +0000.gpx */,
+			);
+			name = "Geo testdata";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA82884519ACCA870087960D /* mymileageregistration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA82886619ACCA870087960D /* Build configuration list for PBXNativeTarget "mymileageregistration" */;
+			buildPhases = (
+				DA82884219ACCA870087960D /* Sources */,
+				DA82884319ACCA870087960D /* Frameworks */,
+				DA82884419ACCA870087960D /* Resources */,
+				DA6908FC19B5EC0300D794C2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mymileageregistration;
+			productName = mymileageregistration;
+			productReference = DA82884619ACCA870087960D /* mymileageregistration.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA82885B19ACCA870087960D /* mymileageregistrationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA82886919ACCA870087960D /* Build configuration list for PBXNativeTarget "mymileageregistrationTests" */;
+			buildPhases = (
+				DA82885819ACCA870087960D /* Sources */,
+				DA82885919ACCA870087960D /* Frameworks */,
+				DA82885A19ACCA870087960D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA82885E19ACCA870087960D /* PBXTargetDependency */,
+			);
+			name = mymileageregistrationTests;
+			productName = mymileageregistrationTests;
+			productReference = DA82885C19ACCA870087960D /* mymileageregistrationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA82883E19ACCA870087960D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "KMD a/s";
+				TargetAttributes = {
+					DA82884519ACCA870087960D = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = AX3K8VES64;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					DA82885B19ACCA870087960D = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = AX3K8VES64;
+						TestTargetID = DA82884519ACCA870087960D;
+					};
+				};
+			};
+			buildConfigurationList = DA82884119ACCA870087960D /* Build configuration list for PBXProject "mymileageregistration" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				da,
+			);
+			mainGroup = DA82883D19ACCA870087960D;
+			productRefGroup = DA82884719ACCA870087960D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA82884519ACCA870087960D /* mymileageregistration */,
+				DA82885B19ACCA870087960D /* mymileageregistrationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA82884419ACCA870087960D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA36107319ADB0C200B2821A /* KMD.bundle in Resources */,
+				DA6908FB19B5EB1200D794C2 /* Custom.strings in Resources */,
+				DAB5EC4E19B881BF00F71567 /* GPXCreator-2014-09-04 111109 +0000.gpx in Resources */,
+				DA82885519ACCA870087960D /* Main.storyboard in Resources */,
+				DAA2FAB219C04C6A009A9A9B /* Settings.bundle in Resources */,
+				DA82885719ACCA870087960D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA82885A19ACCA870087960D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DA6908FC19B5EC0300D794C2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\nbN=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbN=$((0x$bN))\nbN=$(($bN + 1))\nbN=$(printf \"%X\" $bN)\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $bN\" \"$INFOPLIST_FILE\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA82884219ACCA870087960D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3610AE19AE068C00B2821A /* MileageRegistrationsTableViewController.m in Sources */,
+				DA49A6D319B70E3B0037232E /* KMDMapPoint.m in Sources */,
+				DA49A6CF19B706550037232E /* UIImage+ImageEffects.m in Sources */,
+				DAB5EC4219B8591900F71567 /* KMDIntermidiatePoint.m in Sources */,
+				DAB5EC4B19B85BD800F71567 /* NSDate+MDT.m in Sources */,
+				DA1578F019B846EA00FE5B1F /* TripDistanceUtil.m in Sources */,
+				DA754BB619C185BF00C72911 /* MileageTableViewCell.m in Sources */,
+				DAB5EC4A19B85BD800F71567 /* NSDateFormatter+MDT.m in Sources */,
+				DA301DD819AF1B5200BA9A53 /* FieldTableViewCell.m in Sources */,
+				DA301DE419AF430000BA9A53 /* KMDIntermidiatePoint+utility.m in Sources */,
+				DAB5EC4519B8591900F71567 /* KMDMileage.m in Sources */,
+				DAB5EC3F19B8591800F71567 /* KMDTemplate.m in Sources */,
+				DA82884F19ACCA870087960D /* AppDelegate.m in Sources */,
+				DA301DD519AF1A8200BA9A53 /* MileageRegistrationViewController.m in Sources */,
+				DA9E40A519BF129700BA2A23 /* KMDTemplate+utility.m in Sources */,
+				DA301DE119AF42F100BA9A53 /* KMDMileage+utility.m in Sources */,
+				DA9E40A219BEE20000BA2A23 /* KMDMileageTableViewCell.m in Sources */,
+				DA1578EA19B8467A00FE5B1F /* RegistrationRestClient.m in Sources */,
+				DAB35D7B19AEFDEA00944B08 /* DriverRegistration.xcdatamodeld in Sources */,
+				DA1578F419B8477400FE5B1F /* V130Registration.m in Sources */,
+				DA82884C19ACCA870087960D /* main.m in Sources */,
+				DA49A6CC19B6E5CE0037232E /* MapRegistrationViewController.m in Sources */,
+				DAE92F4E19B8EBDF0079CB87 /* KMDKeyboardToolbar.m in Sources */,
+				DA9E40A819BF352000BA2A23 /* KMDGeocoder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA82885819ACCA870087960D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA82886319ACCA870087960D /* mymileageregistrationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA82885E19ACCA870087960D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA82884519ACCA870087960D /* mymileageregistration */;
+			targetProxy = DA82885D19ACCA870087960D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA82885319ACCA870087960D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA3610AF19AE074700B2821A /* da */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA82886419ACCA870087960D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		DA82886519ACCA870087960D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Release;
+		};
+		DA82886719ACCA870087960D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "mymileageregistration/mymileageregistration-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode6-Beta6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"\"$(SRCROOT)/../Library\"/**",
+					"\"$(SRCROOT)/../Common\"/**",
+				);
+				INFOPLIST_FILE = mymileageregistration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/KMD-fvhooyintmbfcedzvendbbnewtrv/Build/Products/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Development/KMD/Common/build/Debug-iphoneos",
+					"/Users/perfriis/Development/KMD-iOS-OPUS/Common/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "mymileageregistration/mymileageregistration-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA82886819ACCA870087960D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "mymileageregistration/mymileageregistration-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode6-Beta6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"\"$(SRCROOT)/../Library\"/**",
+					"\"$(SRCROOT)/../Common\"/**",
+				);
+				INFOPLIST_FILE = mymileageregistration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/KMD-fvhooyintmbfcedzvendbbnewtrv/Build/Products/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Development/KMD/Common/build/Debug-iphoneos",
+					"/Users/perfriis/Development/KMD-iOS-OPUS/Common/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "mymileageregistration/mymileageregistration-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		DA82886A19ACCA870087960D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = mymileageregistrationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mymileageregistration.app/mymileageregistration";
+			};
+			name = Debug;
+		};
+		DA82886B19ACCA870087960D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = mymileageregistrationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mymileageregistration.app/mymileageregistration";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA82884119ACCA870087960D /* Build configuration list for PBXProject "mymileageregistration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA82886419ACCA870087960D /* Debug */,
+				DA82886519ACCA870087960D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA82886619ACCA870087960D /* Build configuration list for PBXNativeTarget "mymileageregistration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA82886719ACCA870087960D /* Debug */,
+				DA82886819ACCA870087960D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA82886919ACCA870087960D /* Build configuration list for PBXNativeTarget "mymileageregistrationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA82886A19ACCA870087960D /* Debug */,
+				DA82886B19ACCA870087960D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DAB35D7819AEFDEA00944B08 /* DriverRegistration.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DAB35D7919AEFDEA00944B08 /* DriverRegistration 2.xcdatamodel */,
+				DAB35D7A19AEFDEA00944B08 /* DriverRegistration.xcdatamodel */,
+			);
+			currentVersion = DAB35D7919AEFDEA00944B08 /* DriverRegistration 2.xcdatamodel */;
+			path = DriverRegistration.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DA82883E19ACCA870087960D /* Project object */;
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13E28" minimumToolsVersion="Xcode 4.1" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Car" representedClassName="Car" syncable="YES">
+        <attribute name="registrationNumber" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Registration" representedClassName="V130Registration" syncable="YES">
+        <attribute name="destination" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isSent" attributeType="Boolean" defaultValueString="NO" indexed="YES" syncable="YES"/>
+        <attribute name="origin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reason" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="templateID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="templateName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tripDate" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="tripDistanceInKilometers" optional="YES" attributeType="Double" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vehicleRegistrationNumber" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Template" representedClassName="Template" syncable="YES">
+        <attribute name="templateID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="templateName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Car" positionX="459" positionY="213" width="128" height="75"/>
+        <element name="Registration" positionX="133" positionY="230" width="128" height="193"/>
+        <element name="Template" positionX="313" positionY="213" width="128" height="75"/>
+    </elements>
+</model>

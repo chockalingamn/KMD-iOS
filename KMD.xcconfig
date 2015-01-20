@@ -1,0 +1,1 @@
+HEADER_SEARCH_PATHS=${SRCROOT}/../Common/ ${SRCROOT}/../Library/** ${SRCROOT}/../Library/  ${SRCROOT}/../** ${inherited}

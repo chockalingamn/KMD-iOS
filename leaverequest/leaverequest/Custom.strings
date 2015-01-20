@@ -1,0 +1,17 @@
+/* 
+  Custom.strings
+  Mit Fravaer
+
+  Created by Per Friis on 02/09/2014.
+  Copyright (c) 2013 KMD A/S. All rights reserved.
+*/
+"app_name" = "Mit Fravær";
+"app_description" = "Med Mit Fravær fra KMD, kan du selv foretage korrekt indberetning af fravær.
+
+Fra din iPhone foretager du indberetningen direkte i KMD Opus, og din leder får besked om dit fravær.
+
+Det er muligt at registrere på de flestefraværstyper
+
+For at benytte Mit fravær skal du være medarbejder i en kommune eller region, som benytter KMD Opus Personale og har valgt muligheden for medarbejderindberetninger.
+
+Under brug af denne app, hentes data relateret til brugeren ind på enheden.";

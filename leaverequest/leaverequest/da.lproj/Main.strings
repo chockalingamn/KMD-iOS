@@ -1,0 +1,69 @@
+
+/* Class = "IBUILabel"; text = "Du har et fravær med ukendt slutdata"; ObjectID = "0na-wW-vnk"; */
+"0na-wW-vnk.text" = "Du har et fravær med ukendt slutdata";
+
+/* Class = "IBUILabel"; text = "Heldag"; ObjectID = "19Y-Px-eFw"; */
+"19Y-Px-eFw.text" = "Heldag";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "3mi-eY-jRM"; */
+"3mi-eY-jRM.text" = "Detail";
+
+/* Class = "IBUIBarButtonItem"; title = "Log ud"; ObjectID = "497-vx-6lT"; */
+"497-vx-6lT.title" = "Log ud";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "4AC-rh-vSs"; */
+"4AC-rh-vSs.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "7z5-Zj-ZHa"; */
+"7z5-Zj-ZHa.text" = "Title";
+
+/* Class = "IBUILabel"; text = "03t 45m"; ObjectID = "92O-C2-OiL"; */
+"92O-C2-OiL.text" = "03t 45m";
+
+/* Class = "IBUINavigationItem"; title = "Vælg type"; ObjectID = "Aoa-b8-thU"; */
+"Aoa-b8-thU.title" = "Vælg type";
+
+/* Class = "IBUILabel"; text = "Start dato"; ObjectID = "C15-pt-OUm"; */
+"C15-pt-OUm.text" = "Start dato";
+
+/* Class = "IBUINavigationItem"; title = "Fravær"; ObjectID = "Dtk-6I-G3h"; */
+"Dtk-6I-G3h.title" = "Fravær";
+
+/* Class = "IBUILabel"; text = "vælg din sidste farværsdag"; ObjectID = "IBS-Rz-U33"; */
+"IBS-Rz-U33.text" = "vælg din sidste farværsdag";
+
+/* Class = "IBUILabel"; text = "Fraværstype"; ObjectID = "NZD-kc-ekg"; */
+"NZD-kc-ekg.text" = "Fraværstype";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "Pbm-8Z-fEI"; */
+"Pbm-8Z-fEI.text" = "Label";
+
+/* Class = "IBUILabel"; text = "3t 45m"; ObjectID = "Tgv-ow-PV6"; */
+"Tgv-ow-PV6.text" = "3t 45m";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "VMp-xq-XJL"; */
+"VMp-xq-XJL.text" = "Label";
+
+/* Class = "IBUILabel"; text = "vælg din sidste farværsdag"; ObjectID = "Yjp-md-p03"; */
+"Yjp-md-p03.text" = "vælg din sidste farværsdag";
+
+/* Class = "IBUINavigationItem"; title = "Oversigt"; ObjectID = "cg0-HB-1Ji"; */
+"cg0-HB-1Ji.title" = "Oversigt";
+
+/* Class = "IBUIButton"; normalTitle = "Godkend"; ObjectID = "czR-Xp-GK8"; */
+"czR-Xp-GK8.normalTitle" = "Godkend";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "dDr-7Q-OnN"; */
+"dDr-7Q-OnN.text" = "Title";
+
+/* Class = "IBUILabel"; text = "07/04/2014 9:20"; ObjectID = "hVJ-GX-FF5"; */
+"hVJ-GX-FF5.text" = "07/04/2014 9:20";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "nwG-ZR-X2J"; */
+"nwG-ZR-X2J.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "vaK-sz-4I1"; */
+"vaK-sz-4I1.text" = "Label";
+
+/* Class = "IBUILabel"; text = "07/04/2014 9:20"; ObjectID = "zXl-ub-3dF"; */
+"zXl-ub-3dF.text" = "07/04/2014 9:20";

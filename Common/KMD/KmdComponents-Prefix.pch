@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'KmdComponents' target in the 'KmdComponents' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import "UIImageExtension.h"
+#endif
